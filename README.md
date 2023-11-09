@@ -7,6 +7,12 @@
   - [Data Source](#data-source)
   - [Data Overview](#data-overview)
   - [Data Dictionary](#data-dictionary)
+- [Project Organization](#project-organization)
+  - [Flowchart](#flowchart)
+  - [Baseline Models](#baseline-models)
+  - [Model Selection](#model-selection)
+- [Next Steps](#next-steps)
+
 
 
 
@@ -58,3 +64,28 @@ This project uses a sample from the Kaggle dataset to explore customer behavior 
 |hotel_market|	Hotel market	|int|
 |hotel_cluster|	ID of a hotel cluster	|int|
 
+## Project Organization
+
+### Flowchart
+Beginning with data collection, the process unfolds through essential stages such as data preprocessing, exploratory data analysis (EDA), and the implementation of baseline models, including Random Cluster Selection, Logistic Regression, KNeighbors, and Decision Tree
+
+### Baseline Models
+For the initial phase, I've selected four baseline models to kickstart the analysis. These models include:
+- **Random Cluster Selection**
+- **Logistic Regression**
+- **KNeighbors**
+- **Decision Tree**
+
+### Model Selection
+For model selection, the following considerations were made:
+- **Random Cluster Selection:** Served as a basic benchmark to compare against other models.
+- **Logistic Regression:** Chosen for its simplicity, adaptability to non-linear decision boundaries, and interpretability.
+- **KNeighbors:** Selected for its ability to handle classification tasks based on proximity in the feature space and versatility in capturing complex patterns.
+- **Decision Tree:** Employed due to its versatility in handling both classification and regression tasks, interpretability, and the optimization of hyperparameters using GridSearchCV.
+
+Insights gained from baseline models and exploratory data analysis were instrumental in guiding the selection process. Further details on model evaluations and comparisons will be included in subsequent sections.
+
+## Next Steps
+- Implement advanced models
+- Fine-tune hyperparameters
+- Evaluate and compare model performance
