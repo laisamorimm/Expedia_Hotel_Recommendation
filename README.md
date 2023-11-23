@@ -92,3 +92,4 @@ This project centers on elevating the user experience on Expedia's platform thro
 Further enhancing the Decision Tree's efficacy, the project delved into hyperparameter tuning, resulting in noticeable improvements.
 
 The project's success with the Decision Tree underscores its aptness for the task. The iterative nature of the project ensures continuous refinement, aligning with the overarching objective of providing precise and tailored hotel recommendations on Expedia's platform.
+.
