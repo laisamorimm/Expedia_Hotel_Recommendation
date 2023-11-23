@@ -11,7 +11,7 @@
   - [Flowchart](#flowchart)
   - [Baseline Models](#baseline-models)
   - [Model Selection](#model-selection)
-- [Next Steps](#next-steps)
+- [Conclusion](#conclusion)
 
 
 
@@ -85,7 +85,10 @@ For model selection, the following considerations were made:
 
 Insights gained from baseline models and exploratory data analysis were instrumental in guiding the selection process. Further details on model evaluations and comparisons will be included in subsequent sections.
 
-## Next Steps
-- Implement advanced models
-- Fine-tune hyperparameters
-- Evaluate and compare model performance
+## Conclusion:
+
+This project centers on elevating the user experience on Expedia's platform through the prediction of hotel clusters. Following an exploration of diverse baseline models such as Random Cluster Selection, Logistic Regression, KNeighbors, and Decision Tree, the latter emerged as the standout performer, seamlessly combining adaptability and interpretability.
+
+Further enhancing the Decision Tree's efficacy, the project delved into hyperparameter tuning, resulting in noticeable improvements.
+
+The project's success with the Decision Tree underscores its aptness for the task. The iterative nature of the project ensures continuous refinement, aligning with the overarching objective of providing precise and tailored hotel recommendations on Expedia's platform.
