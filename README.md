@@ -37,6 +37,12 @@ The dataset was collected from Kaggle, and it is publicly accessible at  https:/
 ### Data Overview
 This project uses a sample from the Kaggle dataset to explore customer behavior on Expedia's platform. The dataset contains a training set from 2013 to July 2014 and a test set from August to December 2014 for model validation. Pre-processing and cleaning are performed to ensure data quality and relevance.
 
+### Data findings
+In the course of this project, several noteworthy findings emerged, shedding light on user behaviors and preferences within the Expedia Hotels Website dataset:
+
+In both 2013 and 2014, the website experienced interaction peaks in March, July, and October. These periods signify a noticeable surge in user engagement, suggesting a growing interest in hotel-related activities. Notably, 2014 witnessed a significant uptick in website traffic compared to the previous year. The median distance between the origin and destination points is approximately 1168.39 miles. This insight provides a glimpse into the average travel distances customers are interested in, potentially influencing the recommendation of hotels within a specific radius. A predominant number of users access the website from non-mobile devices. This emphasizes a substantial interest in hotel searches via traditional platforms, highlighting the need for an optimized desktop experience. User booking preferences lean towards one-day stays for two people, with a notable trend of starting these stays on Sundays. Understanding such patterns is crucial for tailoring recommendations and improving the overall user experience. Only 8.71% of user interactions culminate in actual bookings. This metric underscores the importance of refining recommendation models to increase conversion rates and improve the platform's effectiveness. These insights provide a foundation for further analysis and model development, enabling the creation of more personalized and effective hotel recommendations for Expedia users.
+
+
 ### Data Dictionary
 | Column name |Description	Data| Type |
 |----------|----------|----------|
@@ -87,8 +93,4 @@ Insights gained from baseline models and exploratory data analysis were instrume
 
 ## Conclusion:
 
-This project centers on elevating the user experience on Expedia's platform through the prediction of hotel clusters. Following an exploration of diverse baseline models such as Random Cluster Selection, Logistic Regression, KNeighbors, and Decision Tree, the latter emerged as the standout performer, seamlessly combining adaptability and interpretability.
-
-Further enhancing the Decision Tree's efficacy, the project delved into hyperparameter tuning, resulting in noticeable improvements.
-
-The project's success with the Decision Tree underscores its aptness for the task. The iterative nature of the project ensures continuous refinement, aligning with the overarching objective of providing precise and tailored hotel recommendations on Expedia's platform.
+This project centers on elevating the user experience on Expedia's platform through the prediction of hotel clusters. Following an exploration of diverse baseline models such as Random Cluster Selection, Logistic Regression, KNeighbors, and Decision Tree, the latter emerged as the standout performer, seamlessly combining adaptability and interpretability. Further enhancing the Decision Tree's efficacy, the project delved into hyperparameter tuning, resulting in noticeable improvements. The project's success with the Decision Tree underscores its aptness for the task. The iterative nature of the project ensures continuous refinement, aligning with the overarching objective of providing precise and tailored hotel recommendations on Expedia's platform.

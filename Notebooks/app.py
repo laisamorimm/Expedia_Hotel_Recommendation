@@ -1,37 +1,3 @@
-# import streamlit as st
-# import joblib
-
-# # Load the trained Decision Tree model and scaler
-# model_data = joblib.load('decision_tree_model.joblib')
-# best_dtree = model_data['model']
-# scaler = model_data['scaler']
-
-
-# # Streamlit App
-# st.title("Hotel Recommendation Expedia")
-
-# # Sidebar Input with Single Option
-# country_options = {'Canada': 50, 'USA': 198}
-# selected_country = st.selectbox('In which country do you intend to travel?', list(country_options.keys()))
-
-
-# # Map the selected country to its corresponding value
-# country = country_options[selected_country]
-
-
-# # Sidebar Input
-# days_in_hotel = st.text_input('What is the intended duration of your stay at the hotel?')
-
-# # Button
-# if st.button('Recommend'):
-#     # Make predictions on the user input
-#     user_input_scaled = scaler.transform([[float(days_in_hotel), country]])
-#     prediction = best_dtree.predict(user_input_scaled)
-
-#     st.write(f'The recommended hotel cluster is: {prediction[0]}')
-
-# ----
-
 import streamlit as st
 import joblib
 
